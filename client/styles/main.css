@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+body { 
+	padding : 0px;
+}
+
+.navbar button {
+	color: #fff;
+}

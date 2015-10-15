@@ -1,0 +1,60 @@
+<!-- client/dashboard.ejs -->
+
+<!doctype html>
+
+<html>
+	
+	<head>
+		
+		<title>Dom Manager</title>
+		
+		<link href="/thirdpart/bootstrap/dist/css/bootstrap.min.css"	 				rel="stylesheet" >
+		<link href="/thirdpart/bootstrap/docs/assets/css/docs.min.css"	 				rel="stylesheet" >
+		<link href="/thirdpart/bootstrap-additions/dist/bootstrap-additions.min.css" 	rel="stylesheet" >
+		<link href="/thirdpart/angularjs-toaster/toaster.min.css" 						rel="stylesheet" >
+		<link href="/thirdpart/ladda/dist/ladda-themeless.min.css" 						rel="stylesheet" >
+		<link href="/thirdpart/font-awesome/css/font-awesome.min.css" 					rel="stylesheet" >
+		
+		<link href="/styles/main.css" rel="stylesheet" >
+		
+	</head>
+	
+	<body>
+	
+		<header>
+			<% include pages/top_bar.ejs %>
+		</header>
+		
+		
+		<main>
+			<ul class="nav nav-tabs">
+				<li> <a href="#">Vendas</a></li>
+				<li> <a href="#">Compras</a></li>
+				<li> <a href="#">Clientes</a></li>
+				<li> <a href="#">Produtos</a></li>
+			</ul>
+		</main>
+		
+		<footer class="bs-docs-footer navbar-fixed-bottom" role="contentinfo">
+			<% include pages/footer.ejs %>
+		</footer>
+		
+		<script src="/thirdpart/angular/angular.min.js" ></script >
+		<script src="/thirdpart/angular-resource/angular-resource.min.js" ></script >
+		<script src="/thirdpart/angular-animate/angular-animate.min.js" ></script >
+		<script src="/thirdpart/ngInfiniteScroll/build/ng-infinite-scroll.min.js" ></script >
+		<script src="/thirdpart/spin.js/spin.js" ></script >
+		<script src="/thirdpart/angular-spinner/angular-spinner.min.js" ></script >
+		<script src="/thirdpart/angular-auto-validate/dist/jcs-auto-validate.min.js" ></script >
+		<script src="/thirdpart/ladda/dist/ladda.min.js" ></script >
+		<script src="/thirdpart/angular-ladda/dist/angular-ladda.min.js" ></script >
+		<script src="/thirdpart/angular-strap/dist/angular-strap.min.js" ></script >
+		<script src="/thirdpart/angular-strap/dist/angular-strap.tpl.min.js" ></script >
+		<script src="/thirdpart/angularjs-toaster/toaster.min.js" ></script >
+		<script src="/thirdpart/ui-router/release/angular-ui-router.min.js" ></script >
+		
+		<script src="/scripts/main.js" ></script >
+	
+	</body>
+
+</html>
